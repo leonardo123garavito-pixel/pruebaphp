@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+
+    background-color: blue
+}
+
+#container{
+    width: 80%;
+    margin: 0px auto;
+    border: 1px solid red;
+}
+
+#header{
+    height: 140px;
+    background-color: brown;
+    color: bisque;
+    text-align: center;
+    line-height: 100px;
+}
