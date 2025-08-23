@@ -61,4 +61,20 @@ body{
 
 #menu a:hover{
     background: rgb(113, 187, 221)
+
+}
+
+#content{
+    margin: 0pc auto;
+    background: rgb(180, 199, 93);
+}
+
+/*barra lateral*/
+#lateral{
+    width: 20%;
+    border: 1px solid red;
+}
+#central{
+    width: 80%;
+    border: 1px solid blue;
 }
