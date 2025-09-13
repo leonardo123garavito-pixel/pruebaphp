@@ -2,7 +2,7 @@
 
 require_once'config/database.php';
 
-class Usuari{
+class Usuario{
 
     public $db;
 
@@ -50,27 +50,27 @@ class Usuari{
         $this->id_usuario = $id_usuario;
     }
 
-     function setId_usuario($nombre){
+     function setNombre($nombre){
         $this->id_usuario = $nombre;
     }
 
-     function setId_usuario($apellido){
+     function setApellido($apellido){
         $this->id_usuario = $apellido;
     }
 
-     function setId_usuario($email){
+     function setEmail($email){
         $this->id_usuario = $email;
     }
 
-     function setId_usuario($password){
+     function setPassword($password){
         $this->id_usuario = $password;
     }
 
-     function setId_usuario($rol){
+     function setRol($rol){
         $this->id_usuario = $rol;
     }
 
-     function setId_usuario($imagen){
+     function setImagen($imagen){
         $this->id_usuario = $imagen;
     }
     
