@@ -73,5 +73,11 @@ class Usuario{
      function setImagen($imagen){
         $this->id_usuario = $imagen;
     }
+
+
+    public function conseguirTodos(){
+        echo "IMPRIMIENDO TODOS LOS UDUARIOS...";
+
+    }
     
 }
