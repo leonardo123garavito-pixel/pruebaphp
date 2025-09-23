@@ -15,5 +15,8 @@ class UsuarioController{
 
     }
 
-    
+    public function crear(){
+        require_once 'views/usuario/crear.php';
+
+    }
 }

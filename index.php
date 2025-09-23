@@ -7,3 +7,5 @@
     $controlador = new UsuarioController();
 
     $controlador->mostrarTodos();
+
+    $controlador->crear();

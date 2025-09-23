@@ -76,7 +76,12 @@ class Usuario{
 
 
     public function conseguirTodos(){
-        echo "IMPRIMIENDO TODOS LOS UDUARIOS...";
+        echo "IMPRIMIENDO TODOS LOS UDUARIOS ACTIVO...";
+
+    }
+
+    public function crear(){
+        echo "IMPRIMIENDO UN SOLO USUARIO...";
 
     }
     
